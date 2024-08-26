@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es_MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="./assets/Logo.png"></a>
+    </header>
+    <main>
+        <section class="contenedor">
+            <textarea class="text_area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minisculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="boton_encriptador" onclick="botonEncriptar()">Encriptar</button>
+                <button class="boton_desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+
+            </div>
+        </section>
+        <section class="contenedor_2">
+            <textarea class="mensaje" cols="30" rows="10" disabled></textarea>
+            <div>
+                <button class="boton_copiar" onclick="botoncopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <a href="https://www.instagram.com/">
+            <img class="redes" src="./assets/instagram.png">
+        </a>
+
+        <a href="https://github.com/login">
+            <img class="redes" src="./assets/github.png">
+        </a>
+
+        <a href="https://www.linkedin.com/hp">
+            <img class="redes" src="./assets/linkedin.png">
+        </a>
+</footer>
+</body>
+<script src="/script.js"></script>
+</html>
